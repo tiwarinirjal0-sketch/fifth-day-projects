@@ -1,0 +1,87 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", sans-serif;
+}
+
+/* PAGE */
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background: #6ee24b;
+}
+
+/* MAIN CENTERING */
+main {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* QUOTE CARD */
+.quote-area {
+    margin-left: 110px;
+    width: 450px;
+    max-width: 90%;
+    background: #badf35;
+    padding: 30px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.12);
+}
+
+/* QUOTE TEXT */
+#quoteText {
+    font-size: 1.6rem;
+    line-height: 1.5;
+    color: #222;
+}
+
+/* AUTHOR */
+#quoteAuthor {
+    margin-top: 12px;
+    font-size: 1.1rem;
+    color: #666;
+    font-style: italic;
+}
+
+/* BUTTON CONTAINER */
+.container {
+    margin-top: 25px;
+}
+
+/* BUTTON ROW */
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 150px;
+    transform: translate(-150%, 50%);
+}
+
+/* BUTTONS */
+.button button {
+    padding: 10px 22px;
+    font-size: 0.95rem;
+    border: none;
+    border-radius: 6px;
+    background: #4f46e5;
+    color: white;
+    cursor: pointer;
+    transition: background 0.2s ease, transform 0.2s ease;
+}
+
+.button button:hover {
+    background: #4338ca;
+    transform: translateY(-2px);
+}
+
+.button button:active {
+    transform: scale(0.95);
+}
